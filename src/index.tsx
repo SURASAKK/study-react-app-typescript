@@ -5,8 +5,12 @@ import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
+
+
 const AppWithRouter = () => (
+
   <BrowserRouter>
+
     <App />
   </BrowserRouter>
 )
